@@ -1,0 +1,44 @@
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.bucket{
+  padding-top: 10%;
+  color: aliceblue;
+}
+.btn{
+  line-height: 3em;
+}
+.custom{
+  margin: auto;
+  width: 60%;
+  line-height: 2em;
+}
+
+tr,td{
+  color: aliceblue;
+  font-size: 1.1em;
+  white-space : pre-wrap;
+  overflow :hidden;
+}
+th{
+  color: orange;
+  font-size: 1.3em;
+}
+.glass{
+  margin: auto;
+  width: 70%;
+	
+	box-shadow: 0 0 1rem 0 rgba(209, 113, 113, 0.692);	
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.15);
+	/* overflow: hidden; */
+	backdrop-filter: blur(15px);
+}
+.resp p {
+  font-size: 18px;
+}
